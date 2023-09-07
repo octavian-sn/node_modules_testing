@@ -4,11 +4,13 @@
   "description": "Node testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon express_index.js"
   },
   "author": "Octavian Sulic",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
